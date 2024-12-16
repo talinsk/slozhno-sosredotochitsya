@@ -210,22 +210,47 @@
     top: 20px;
   }
 
+  .decorated-zone::after {
+    left: 20px;
+  }
+
   .header__rec {
     right: 30px;
     top: 20px;
   }
 
   .header__theme-menu {
-    padding-left: 20px;
+    padding-top: 190px;
     padding-right: 20px;
+    padding-left: 20px;
     justify-self: end;
   }
 
+  .header__title {
+    padding-top: 128px;
+  }
+
   .header__sometext {
-    width: 50%;
+    width: 47.5%;
     justify-self: end;
     margin-right: 20px;
     align-self: center;
+    margin-top: 54px;
+    margin-bottom: 164px;
+  }
+
+  .info-block {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .info-block__float {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .info-block__title {
+    padding-top: 79px;
   }
 
   .gallery .header__title-decor {
