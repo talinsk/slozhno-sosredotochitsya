@@ -5,6 +5,7 @@
 
 :root {
   --accent-color: #ff0070;
+  --accent-color-hover: rgba(255, 0, 112, .4);
   --main-font-family: 'IBM Plex mono', sans-serif;
   --main-text-size: 18px;
   --background-image: url(../images/cover-image.png);
