@@ -26,8 +26,7 @@
     --accent-color: #353430;
     --accent-color-hover: rgba(50, 49, 45, .4);
     --common-text-color: #353430;
-    --header-bg-color: #FF8DCB;
-    --text-shadow-color: #FF8DCB;
+    --common-design-color: #FF8DCB;
     --main-font-family: 'IBM Plex mono', sans-serif;
     --main-text-size: 18px;
     --background-image: url(../images/cover-image-light.png);
@@ -38,26 +37,4 @@
 
 .page.theme_light .header__rec {
   display: none;
-}
-
-.page.theme_light .header__title {
-  color: var(--title-color);
-  text-shadow: 4px 4px 0 var(--text-shadow-color);
-}
-
-.page.theme_light .header__title-decor {
-  background-color: var(--header-bg-color);
-}
-
-.page.theme_light .info-block__title-decor {
-  background-color: var(--header-bg-color);
-}
-
-.page.theme_light .info-block__link {
-  text-shadow: 2px 2px 0 var(--header-bg-color);
-}
-
-.page.theme_light .footer__title {
-  color: var(--title-color);
-  text-shadow: 2px 2px 0 var(--text-shadow-color);
 }

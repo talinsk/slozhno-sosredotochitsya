@@ -4,9 +4,10 @@
 */
 
 :root {
-  --accent-color: #ff0070;
+  --accent-color: #FF0070;
   --accent-color-hover: rgba(255, 0, 112, .4);
   --common-text-color: #F1B2CE;
+  --common-design-color: #FF0070;
   --title-color: #DB00FF;
   --main-font-family: 'IBM Plex mono', sans-serif;
   --main-text-size: 18px;
