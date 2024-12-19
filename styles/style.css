@@ -4,7 +4,6 @@
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
   font-family: var(--main-font-family);
   font-size: var(--main-text-size);
-  padding: 10px;
   background-image: var(--background-image);
   background-attachment: fixed;
   background-position: center;
@@ -16,6 +15,8 @@
   position: relative;
   display: grid;
   grid-template-rows: repeat(3, 1fr);
+  min-height: 668px;
+  height: 100vh;
 }
 
 .header__rec {
@@ -24,7 +25,8 @@
   align-items: center;
   gap: 10px;
   line-height: 1.4;
-  right: 10px;
+  right: 20px;
+  top:10px;
 }
 
 .header__rec::before {
@@ -54,19 +56,21 @@
 .decorated-zone::before {
   border-top: 1px solid var(--accent-color);
   border-right: 1px solid var(--accent-color);
-  right: 0px;
+  right: 10px;
+  top:10px;
 }
 
 .decorated-zone::after {
   border-bottom: 1px solid var(--accent-color);
   border-left: 1px solid var(--accent-color);
-  bottom: 0px;
+  bottom: 10px;
+  left: 10px;
 }
 
 .header__theme-menu {
   display: flex;
   justify-content: end;
-  padding-top: 63px;
+  padding: 73px 10px 0;
 }
 
 .header__theme-menu-list {
@@ -103,8 +107,10 @@
 }
 
 .header__sometext {
-  margin-top: 43px;
+  margin-top: 40px;
   margin-bottom: 56px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .header__title {
@@ -112,7 +118,7 @@
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   text-shadow: 4px 4px 0 var(--accent-color);
   line-height: 0.83;
-  padding-top: 13px;
+  padding: 17px 10px 0;
 }
 
 .header__title-decor {
@@ -122,6 +128,14 @@
   font-size: 18px;
   line-height: 1.3;
   height: fit-content;
+}
+
+.main {
+  padding: 0 10px;
+}
+
+.info-block div:first-child {
+  padding-top: 40px;
 }
 
 .info-block__title {
@@ -139,11 +153,9 @@
   font-weight: 400;
 }
 
-.info-block__order {
-  padding-top: 50px;
-}
-
-.info-block__float {
+.info-block__order,
+.info-block__float
+{
   padding-top: 50px;
 }
 
@@ -197,6 +209,8 @@ padding-top: 50px;
 .footer {
   position: relative;
   margin-top: 40px;
+  height: 100vh;
+  min-height: 668px;
 }
 
 .footer__title {
