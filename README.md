@@ -1,1 +1,1 @@
-https://github.com/talinsk/slozhno-sosredotochitsya
+https://github.com/talinsk/slozhno-sosredotochitsya-fd
